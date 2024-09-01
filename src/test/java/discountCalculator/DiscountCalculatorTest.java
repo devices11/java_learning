@@ -1,4 +1,4 @@
-package DiscountCalculator;
+package discountCalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
