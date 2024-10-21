@@ -16,17 +16,10 @@ public class HandMadeLinkedList<T> {
         }
     }
 
-
-    /**
-     * Указатель на первый элемент списка. Он же first
-     */
+    //Указатель на первый элемент списка. Он же first
     private Node<T> head;
-
-    /**
-     * Указатель на последний элемент списка. Он же last
-     */
+    //Указатель на последний элемент списка. Он же last
     private Node<T> tail;
-
     private int size = 0;
 
     public void addFirst(T element) {
